@@ -25,22 +25,15 @@ This repository contains a simple reverse proxy setup using FastAPI for handling
     cd reverse-proxy
     ```
 
-2. Create and activate a virtual environment:
-
-    ```bash
-    python3 -m venv venv
-    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-    ```
-
-3. Install the required packages:
+2. Install the required packages:
 
     ```bash
     pip install fastapi uvicorn requests
     ```
 
-4. Ensure you have ngrok installed. If not, download it from [ngrok's official website](https://ngrok.com/download) and follow the installation instructions.
+3. Ensure you have ngrok installed. If not, download it from [ngrok's official website](https://ngrok.com/download) and follow the installation instructions.
 
-5. Set up your ngrok auth token:
+4. Set up your ngrok auth token:
 
     ```bash
     ngrok authtoken YOUR_NGROK_AUTH_TOKEN
